@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: iqbal777/ci-cd-end-to-end:replaceImageTag
+        image: iqbal777/ci-cd-end-to-end:2
         ports:
         - containerPort: 8080
