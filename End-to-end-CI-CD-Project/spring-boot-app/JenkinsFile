@@ -47,7 +47,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "Jenkins-CI-CD"
+            GIT_REPO_NAME = "CI-CD-with-Jenkins"
             GIT_USER_NAME = "shamim-iq"
         }
         steps {
